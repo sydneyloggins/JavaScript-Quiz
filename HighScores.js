@@ -1,17 +1,18 @@
-// Declared variables
+// Variables for highscores, clearing the history, and to go back to start of quiz and selected from HTML
 var highScore = document.querySelector("#highScore");
 var clear = document.querySelector("#clear");
 var goBack = document.querySelector("#goBack");
 
-// Event listener to clear scores 
+// Click to clear scores-adds event listener
 clear.addEventListener("click", function () {
     localStorage.clear();
     location.reload();
 });
-// Retreives local stroage 
+// Local storage
 var allScores = localStorage.getItem("allScores");
 allScores = JSON.parse(allScores);
 
+//Creates list of initials from text entered at end of game
 if (allScores !== null) {
 
     for (var i = 0; i < allScores.length; i++) {
@@ -22,7 +23,7 @@ if (allScores !== null) {
 
     }
 }
-// Event listener to move to index page
+// Go back to beginning of game
 goBack.addEventListener("click", function () {
     window.location.replace("./index.html");
 });
