@@ -8,10 +8,10 @@ This is a JavaScript quiz incorporating HTML, CSS, and JavaScript techniques. Th
 Follow this link to access the quiz: 
 
 ## Usage
-Click on the start button to begin quiz: 
-Answer each question, incorrect questions dock 10 seconds from score: 
-Once complete, enter initials to locally store your highscore: 
-Highscore page displays all scores stored locally: 
+Click on the start button to begin quiz: assets/Screenshot 2023-04-11 at 10.42.14 AM.png
+Answer each question, incorrect questions dock 10 seconds from score: assets/Screenshot 2023-04-11 at 10.41.53 AM.png
+Once complete, enter initials to locally store your highscore: assets/Screenshot 2023-04-11 at 10.41.37 AM.png 
+Highscore page displays all scores stored locally: assets/Screenshot 2023-04-11 at 10.41.11 AM.png
 
 ## Credits
 
