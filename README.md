@@ -5,7 +5,7 @@ This is a JavaScript quiz incorporating HTML, CSS, and JavaScript techniques. Th
 
 ## Installation
 
-Follow this link to access the quiz: 
+Follow this link to access the quiz: https://sydneyloggins.github.io/JavaScript-Quiz/index.html
 
 ## Usage
 Click on the start button to begin quiz: ![Screenshot 2023-04-11 at 10 41 11 AM](https://user-images.githubusercontent.com/125998308/231219785-74656003-c157-4d36-8f3d-da08795ddd90.png)
