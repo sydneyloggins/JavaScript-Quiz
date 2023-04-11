@@ -1,3 +1,4 @@
+/*Universal Selector*/
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,9 @@
 
 }
 
+/*Header and Start Page*/
+
+/*Style header containing timer and high score link*/
 header {
     margin: 20px;
     font-size: 1.5rem;
@@ -22,24 +26,15 @@ header {
     cursor: pointer;
 }
 
-li {
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin: 10px;
-    margin-top: 30px;
-    list-style: none;
-    background-color: #38598b;
- 
-}
-li:hover {
-    cursor: pointer;
-    background-color: #e7eaf6;
-    color:  #113f67;
-}
-#questions-element  {
-    font-size: 1.5rem;
+/*Question container styling*/
+#container {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 100px
 }
 
+/*Style background and font throughout quiz*/
 body {
     background-color: #113f67;
     
@@ -50,13 +45,8 @@ p {
     margin: 20px;
 }
 
-#container {
-    display: block;
-    text-align: center;
-    align-items: center;
-    margin: 100px
-}
 
+/*Adds style to buttons*/
 button {
     background-color: #38598b;
     font-size: 1.5rem;
@@ -71,10 +61,32 @@ button:hover {
     color: #38598b;
 }
 
-#createDiv {
-    margin: 20px; 
+/*Questions*/
+
+/*Question font-size*/
+#questions-element  {
+    font-size: 1.5rem;
 }
 
+/*Answer choice style*/
+li {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px;
+    margin-top: 30px;
+    list-style: none;
+    background-color: #38598b;
+ 
+}
+li:hover {
+    cursor: pointer;
+    background-color: #e7eaf6;
+    color:  #113f67;
+}
+
+/*Highscore Page*/
+
+/*Initial input box style*/
 #initials {
     padding: 8px;
     color: black;

@@ -5,20 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <!--Title of tab-->
     <title>Quiz App</title>
 </head>
 <body>
+     <!--Header containing timer and highscore tab-->
     <header>
+         <!--Timer div-created in JS-->
         <div id="currentTime"></div>
+         <!--Link to highscore html doc-->
         <a id="highscores" href="http://127.0.0.1:5500/highscore.html">Highscores</a>
     </header>
+     <!--Main intro and question container-->
     <main>
     <div id="container">
-   
+         <!--Questions div created in JS-->
         <div id="questions-element">
+             <!--Intro screen to start game-->
             <h1>Coding Quiz</h1>
             <p>Try to answer the following questions within the time limit. Keep in mind, incorrect answers will penalize your time by 10 seconds! </p>
+         <!--List of answer choices created in JS-->
         <ul id="choicesUl"></ul>
+         <!--Button to start quiz-->
         <button id = "start-button">Start</button>
         </div>
     </div>
