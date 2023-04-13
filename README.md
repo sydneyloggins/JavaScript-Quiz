@@ -26,6 +26,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 https://www.w3schools.com/js/default.asp
 
+https://michael-karen.medium.com/how-to-save-high-scores-in-local-storage-7860baca9d68
+
+https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer
 
 ## License
 N/A

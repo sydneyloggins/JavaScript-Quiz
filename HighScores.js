@@ -1,10 +1,10 @@
 // Variables for highscores, clearing the history, and to go back to start of quiz and selected from HTML
 var highScore = document.querySelector("#highScore");
-var clear = document.querySelector("#clear");
-var goBack = document.querySelector("#goBack");
+var clearButton = document.querySelector("#clearButton");
+var backButton = document.querySelector("#backButton");
 
 // Click to clear scores-adds event listener
-clear.addEventListener("click", function () {
+clearButton.addEventListener("click", function () {
     localStorage.clear();
     location.reload();
 });
@@ -24,6 +24,6 @@ if (allScores !== null) {
     }
 }
 // Go back to beginning of game
-goBack.addEventListener("click", function () {
+backButton.addEventListener("click", function () {
     window.location.replace("./index.html");
 });

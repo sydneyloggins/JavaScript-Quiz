@@ -31,12 +31,10 @@ var questions = [
 // Variables
 var score = 0;
 var questionIndex = 0;
-
 var currentTime = document.querySelector("#currentTime");
 var timer = document.querySelector("#start-button");
 var questionsElement = document.querySelector("#questions-element");
 var container = document.querySelector("#container");
-
 var secondsLeft = 90;
 var holdInterval = 0;
 var penalty = 10; 
@@ -104,7 +102,7 @@ function compare(event) {
             //if answer is wrong, subtracts 10 seconds from timer and displays right answer
         } else {
             secondsLeft = secondsLeft - penalty,
-            createDiv.textContent = "Wrong! The correct answer is: " + questions[questionIndex].answer
+            createDiv.textContent = "Incorrect!";
         }
     }
     //moves to next question
@@ -112,7 +110,7 @@ function compare(event) {
     //Condition if the questions are done then 'finished' function is called to display score if not, addQuestion function is called again
     if (questionIndex >= questions.length) {
         finished();
-        createDiv.textContent = "End of quiz! " + " " + "You got " + score + "/" + questions.length + " Correct!";
+        createDiv.textContent = "End of quiz!";
     } else { 
         addQuestion(questionIndex);
     }
@@ -193,10 +191,9 @@ function finished() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to final page
-            window.location.replace(".highscore.html");
+            window.location.replace("highscore.html");
         }
     });
 
 
 }
-
